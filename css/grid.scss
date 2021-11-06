@@ -32,15 +32,22 @@
   
     background-color: greenyellow;
   }
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
 
     .page-wrapper {
       padding: 20px;
       display: grid;
-      grid-template-columns: 2fr;
+      grid-template-rows: repeat(3,1fr );
+      grid-template-columns: repeat(3, 1fr);
+    }
+    section, .main, aside{
+      grid-column-start:1;
+      grid-column-end: 4;
     }
     section {
         background: rgb(116, 174, 248) ;
+        grid-row:1;
+
         position:relative;
         
         
@@ -68,9 +75,13 @@
   
   
   }
-  
+  .main{
+    grid-row:2;
+  }
+
   
     aside{
+      grid-row:3;
         
         padding: 50px;
         .wrapper{
