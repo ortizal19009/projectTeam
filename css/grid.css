@@ -85,8 +85,8 @@ aside .wrapper {
   .page-wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: (1fr)[3];
-        grid-template-rows: repeat(3, 1fr);
+    -ms-grid-rows: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
@@ -101,14 +101,8 @@ aside .wrapper {
     -ms-grid-row: 1;
     grid-row: 1;
   }
-  section header {
-    padding-top: 20em;
-  }
   section header h2 {
     text-align: center;
-  }
-  section .summary p + p {
-    margin-top: 150px;
   }
   section::before {
     position: absolute;

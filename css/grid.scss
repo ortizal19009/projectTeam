@@ -1,3 +1,4 @@
+//MODIFICACIONES EN AMBAS VISTAS
 body{
   padding: 20px;
   margin:0;
@@ -19,6 +20,7 @@ aside{
     padding: 10px;
   }
 }
+//MODIFICACIONES EN LA VISTA PANTALLA GRANDE
 @media screen and (min-width: 701px) {
   .page-wrapper {
     display: grid;
@@ -60,11 +62,13 @@ aside{
 
   }
 }
+
+//MODIFICACIONES EN LA VISTA PANTALLA PEQUEÑA
 @media screen and (max-width: 700px) {
   
   .page-wrapper {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
     grid-template-columns: repeat(3, 1fr);
     // padding: 30px;
     
@@ -79,21 +83,21 @@ aside{
   section {
     grid-row: 1;
     header {
-      padding-top: 20em;
+      // padding-top: 20em;
 
       h2 {
         text-align: center;
       }
     }
 
-    .summary {
-      // p:first-of-type {
-      //     // margin-top: 30px;
-      // }
-      p + p {
-        margin-top: 150px;
-      }
-    }
+    // .summary {
+    //   // p:first-of-type {
+    //   //     // margin-top: 30px;
+    //   // }
+    //   // p + p {
+    //   //   margin-top: 150px;
+    //   // }
+    // }
   }
 
   section::before {
