@@ -1,9 +1,10 @@
 @media (max-width: 500px) {
   .page-wrapper {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     grid-row: auto;
     padding: 20px;
+    background-image: url("/img/background.svg");
   }
   section {
     header {
