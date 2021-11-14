@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Pacifico&display=swap");
 body {
   padding: 20px;
   margin: 0;
   background-color: #024059;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
 }
 
 section {
@@ -37,6 +46,7 @@ section, .main > div, aside > .wrapper {
 a {
   list-style: none;
   color: #D96B62;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (min-width: 701px) {
@@ -114,8 +124,8 @@ a {
   .page-wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 80em 157em 45em;
-        grid-template-rows: 80em 157em 45em;
+    -ms-grid-rows: 100em 187em 45em;
+        grid-template-rows: 100em 187em 45em;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
