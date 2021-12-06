@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Pacifico&display=swap');
+
 
 body{
   padding: 20px;
@@ -6,13 +6,7 @@ body{
   background-color: #024059;
 }
 
-p{
-  font-family: 'Montserrat', sans-serif;
-}
 
-h1,h2,h3{
-  font-family: 'Pacifico', cursive;
-}
 
 section{
   padding: 3em;
@@ -41,12 +35,13 @@ aside{
 section, .main>div, aside>.wrapper{
   border-radius: 20px;
   box-shadow: 10px 5px 5px black;
+  margin-bottom: 2em;
 }
 
 a{
   list-style: none;
   color:#D96B62;
-  font-family: 'Montserrat', sans-serif;
+  
 }
 
 //VISTA DE LA PANTALLA GRANDE
@@ -89,12 +84,15 @@ a{
     }
 
     .summary::before{
-      content:"Imagen";
+      content:"";
+      color:#024059;
       width: 500px;
       height: 100px;
       position:absolute;
       border: black 2px solid;
+      border-top-right-radius: 10px;
       margin-left: -35em;
+      background-color: rgba(255, 255, 255, 0.438);
     }
     
     .preamble{
