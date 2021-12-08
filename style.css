@@ -90,14 +90,14 @@ a {
   }
   section .summary::before {
     content: "";
-    color: #024059;
+    display: block;
+    background-image: url(../img/background.jpg);
     width: 500px;
     height: 100px;
     position: absolute;
     border: black 2px solid;
     border-top-right-radius: 10px;
     margin-left: -35em;
-    background-color: rgba(255, 255, 255, 0.438);
   }
   section .preamble {
     -ms-grid-row: 3;
