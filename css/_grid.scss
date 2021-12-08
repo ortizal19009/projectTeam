@@ -3,6 +3,10 @@ body{
     margin:0;
     background-color: #024059;
   }
+  h3:hover{
+    cursor:pointer;
+    font-size:20px;
+  }
   
   section{
     padding: 3em;
@@ -31,7 +35,7 @@ body{
   
   section, .main>div, aside>.wrapper{
     border-radius: 20px;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.438);
     margin-bottom: 2em;
   }
   
@@ -69,6 +73,7 @@ body{
           border: 2px black solid;
           width: 25%;
           margin: 1rem;
+          box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.438);
         }
         h2{
           text-align: center;
