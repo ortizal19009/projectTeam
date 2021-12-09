@@ -1,0 +1,9 @@
+.summary::before{
+    animation: 3s linear 1s  running slidein;
+    
+}
+@keyframes slidein {
+    0%{
+        margin-left: -100%;
+    }    
+}

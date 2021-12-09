@@ -2,7 +2,6 @@
 body {
   padding: 20px;
   margin: 0;
-  background-color: #024059;
 }
 
 h3:hover {
@@ -12,16 +11,10 @@ h3:hover {
 
 section {
   padding: 3em;
-  background-color: #9ACDD9;
-}
-
-.main {
-  color: white;
 }
 
 .main div {
   padding: 3em;
-  background-color: #0378A6;
 }
 
 aside {
@@ -29,7 +22,6 @@ aside {
 }
 
 aside .wrapper {
-  background-color: #9ACDD9;
   border: 1px black solid;
   padding: 10px;
 }
@@ -43,7 +35,6 @@ section, .main > div, aside > .wrapper {
 
 a {
   list-style: none;
-  color: #D96B62;
 }
 
 @media screen and (min-width: 801px) {
@@ -79,7 +70,7 @@ a {
     grid-column-end: 3;
   }
   section header h1 {
-    border: 2px black solid;
+    border: 1px black solid;
     width: 25%;
     margin: 1rem;
     -webkit-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.438);
@@ -102,7 +93,7 @@ a {
     width: 500px;
     height: 100px;
     position: absolute;
-    border: black 2px solid;
+    border: 1px black solid;
     border-top-right-radius: 10px;
     margin-left: -35em;
   }
@@ -159,5 +150,46 @@ header h2 {
 
 .wrapper div {
   margin-top: 4em;
+}
+
+body {
+  background-color: #024059;
+}
+
+section {
+  background-color: #9acdd9d7;
+}
+
+.main {
+  color: #ffff;
+}
+
+.main div {
+  background-color: #0378A6;
+}
+
+aside > .wrapper {
+  background-color: #9acdd9d7;
+}
+
+a {
+  color: #D96B62;
+}
+
+.summary::before {
+  -webkit-animation: 3s linear 1s  running slidein;
+          animation: 3s linear 1s  running slidein;
+}
+
+@-webkit-keyframes slidein {
+  0% {
+    margin-left: -100%;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+$primary:#024059;
+$secundary:#9acdd9d7;
+$third: #0378A6;
+$color-text:#ffff;
+$color-links:#D96B62;
+body{
+    background-color:$primary ;
+}
+section{
+    background-color:$secundary;  
+}
+.main{
+    color:$color-text;
+    div{
+        background-color: $third;
+    }
+}
+aside > .wrapper{
+    background-color: $secundary;  
+}
+a{
+    color:$color-links;
+}
